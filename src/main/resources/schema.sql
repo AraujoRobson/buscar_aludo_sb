@@ -2,5 +2,5 @@ CREATE TABLE aluno (
 	id INT AUTO_INCREMENT,
 	nome VARCHAR(255) NOT NULL,
 	salario NUMERIC(15,2) NOT NULL,
-	nascimento DATE NOT NULL
+	nascimento DATE 
 );
